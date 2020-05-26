@@ -1,9 +1,10 @@
 import React from 'react';
 import classes from './About.module.css';
-import State1 from 'F:/mushroom killer/MyIODorm/my-iolani-dorm/src/assets/Phases/d1.jpg';
-import State2 from 'F:/mushroom killer/MyIODorm/my-iolani-dorm/src/assets/Phases/d2.jpg';
-import State3 from 'F:/mushroom killer/MyIODorm/my-iolani-dorm/src/assets/Phases/d3.jpg';
-import State4 from 'F:/mushroom killer/MyIODorm/my-iolani-dorm/src/assets/Phases/d4.jpg';
+import State1 from '../../assets/Phases/d1.jpg';
+import State2 from '../../assets/Phases/d2.jpg';
+import State3 from '../../assets/Phases/d3.jpg';
+import State4 from '../../assets/Phases/d4.jpg';
+
 
 
 const About = () => {
