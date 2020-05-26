@@ -24,64 +24,59 @@ const About = () => {
 			</header>
             <body>
                 <br />
-			<h3>How to use this site?</h3>
+			<h3>HOW TO USE</h3>
 			<div>
-				<h4>New Policies</h4>
-				<p>
-					1, A terminal of this site will be launched in the laundry
-					room. That's the only place you are able to operate this
-					site. You can always check the status of the machines.
+				{/* <h4>HOW TO USE</h4> */}
+				<p> 
+					1. You are able to make changes to the status of laundry machines using the terminal in the laundry room. 
+					You are only able to view this website on your own devices.
 				</p>
 				<p>
-					2, For anytime you do your laundry, you should register on the
-					terminal accordingly.
+					2. Register on the terminal every time when you do your laundry. A timer will start count down automatically.
 				</p>
 				<p>
-					3, Once your laundry is done washing/drying, a timer will count
-					down until you take out your laundry and sign up on the
+					3. Once your laundry is done, a 15 minutes (TBD) timer will start to count
+					down until you take out your laundry and sign out on the
 					terminal.
 				</p>
 				<p>
-					4, After the timer goes to zero, anyone is allowed to take out
-					the laundry, but one should either move it to a dryer and
-					sign up accordingly or move it to the user's laundry
-					bag/laundry jail
+					4. After 15 minutes (TBD), anyone is allowed to take out
+					the laundry. It should either be moved to a dryer and
+					gets signed up accordingly or moved to the user's laundry
+					bag.
 				</p>
 				<p>
 					5, You are recommend to put your laundry bag in front of the
-					dryer in case others want to remove your laundry
+					dryer in case others want to remove your laundry.
 				</p>
 			</div>
 			<div>
 				<h3>Terminal User Guide</h3>
 				<h4>
-					There are basically four states of either a washer or a
-					dryer
+					There are four states of washers and dryers
 				</h4>
 				<ul>
 					<li>
 						<img src={State1} alt="state1"/> <strong>State 1: Empty</strong>{' '}
-						<p>This is when you can put in your clothes</p>
+						<p>You can put in your clothes</p>
 					</li>
 					<li>
 						<img src={State2} alt="state2"/> <strong>State 2: Running</strong>
 						<p>
-							This is when you can check the time remaining or the
-							user
+							You can check the user and the time remaining
 						</p>
 					</li>
 					<li>
 						<img src={State3} alt="state3"/> <strong>State 3: Waiting</strong>
 						<p>
-							This is when the laundry is done. If the user can
-							not take it out in 15 minutes, you can take out the
-							laundry{' '}
+							The laundry is done. If the user can
+							not take it out in 15 minutes, you can take it out{' '}
 						</p>
 					</li>
 					<li>
 						<img src={State4} alt="state4"/>{' '}
 						<strong>State 4: Out of Order</strong>
-						<p>This is when the machine is not working</p>
+						<p>The machine is not working</p>
 					</li>
 				</ul>
 			</div>
@@ -89,8 +84,7 @@ const About = () => {
 				<h3>How can this site make your life easier?</h3>
 				<p>
 					{' '}
-					1. There will be much less laundry jam meaning your time of
-					doing laundry becomes more flexible
+					1. There will be  less laundry jam and make your laundry runs more flexible
 				</p>
 				<p>
 					{' '}
@@ -101,10 +95,10 @@ const About = () => {
 			</div>
 
 			<h4>
-				This site is created completely by React. Icons were made by
-				Scarlett 20'
+				This site is created by Tony Dang'21 using Reactjs. Icons are made by
+				Scarlett Hao'20.
 				<br />
-				Source code has been set public at{' '}
+				Source code is public at{' '}
 				<a href="https://github.com/Lempickax/Lempickax.github.io">
 					Github
 				</a>
