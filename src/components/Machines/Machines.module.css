@@ -1,0 +1,15 @@
+.Dryers{
+    text-align: center;
+    
+}
+
+.Washers{
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media (min-width: 500px) {
+   .Washers{
+       padding-top: 60px;
+   }
+}
