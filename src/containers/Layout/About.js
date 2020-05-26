@@ -60,18 +60,18 @@ const About = () => {
 				</h4>
 				<ul>
 					<li>
-						<img src={State1} /> <strong>State 1: Empty</strong>{' '}
+						<img src={State1} alt="state1"/> <strong>State 1: Empty</strong>{' '}
 						<p>This is when you can put in your clothes</p>
 					</li>
 					<li>
-						<img src={State2} /> <strong>State 2: Running</strong>
+						<img src={State2} alt="state2"/> <strong>State 2: Running</strong>
 						<p>
 							This is when you can check the time remaining or the
 							user
 						</p>
 					</li>
 					<li>
-						<img src={State3} /> <strong>State 3: Waiting</strong>
+						<img src={State3} alt="state3"/> <strong>State 3: Waiting</strong>
 						<p>
 							This is when the laundry is done. If the user can
 							not take it out in 15 minutes, you can take out the
@@ -79,7 +79,7 @@ const About = () => {
 						</p>
 					</li>
 					<li>
-						<img src={State4} />{' '}
+						<img src={State4} alt="state4"/>{' '}
 						<strong>State 4: Out of Order</strong>
 						<p>This is when the machine is not working</p>
 					</li>

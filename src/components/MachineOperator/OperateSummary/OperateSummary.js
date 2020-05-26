@@ -34,11 +34,11 @@ class OperateSummary extends React.Component {
 										{props.num}
 									</h1>
 									<p>This {props.mtype} is empty.</p>
-									 <p><Checkbox  toggle
+									 <Checkbox  toggle
 									 	label={props.mtype === "washer" ? "Extra Rinse" : "Heavy Load" }
 										onChange={props.toggleChecked}
 										 />
-										 </p>
+										 
 								
 
 									<div style={{ display: 'block' }}>

@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Auks/Auks';
 import MachineOperator from '../../components/MachineOperator/MachineOperator';
-import Navigationitems from '../../components/Navigation/Navigationitems/Navigationitems';
+
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 import About from './About';
 import {
 	Route,
 	BrowserRouter as Router,
-	withRouter,
 	Switch,
 } from 'react-router-dom';
 
