@@ -17,8 +17,10 @@ class OperateSummary extends React.Component {
 	state = {
 		
 	};
+	
 
 	render() {
+		let state=this.props.phase
 		const { props } = this;
 		const selectedOption = props.selected;
 
@@ -72,7 +74,7 @@ class OperateSummary extends React.Component {
 							<Aux>
 								<div>
 									<h1>
-										{props.mtype}
+										{props.mtype} 
 										{props.num}
 									</h1>
 									<p><strong>{props.username}</strong> is using this {props.mtype}</p>
@@ -89,7 +91,7 @@ class OperateSummary extends React.Component {
 						3: (
 							<Aux>
 								<div>
-									<h1>{props.mtype}</h1>
+									<h1>{props.mtype} {props.num}</h1>
 									<p>
 										The laundry is waiting to be taken out by{' '}
 										<strong>{props.username}</strong>
@@ -113,7 +115,7 @@ class OperateSummary extends React.Component {
 						4: (
 							<Aux>
 								<div>
-									<h1>{props.mtype}</h1>
+									<h1>{props.mtype} {props.num}</h1>
 									<p>
 										<strong>{props.username}</strong>'s
 										laundry is Done
@@ -147,7 +149,7 @@ class OperateSummary extends React.Component {
 								</Button>
 							</Aux>
 						),
-					}[props.phase]
+					}[state]
 				}
 			</div>
 		);

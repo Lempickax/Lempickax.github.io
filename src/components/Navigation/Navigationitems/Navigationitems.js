@@ -5,12 +5,7 @@ import Navigationitem from './Navigationitem/Navigationitem';
 
 // import Layout from '../../../containers/Layout/Layout'
 // import About from '../../../containers/Layout/About'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+
 
 const navigationitems = () => (
 
